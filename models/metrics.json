@@ -1,0 +1,52 @@
+{
+  "Cammeo / Osmancik": {
+    "source_rows": 3810,
+    "training_rows": 3048,
+    "test_rows": 762,
+    "accuracy": 0.9146981627296588,
+    "macro_f1": 0.9122609673790776,
+    "classes": [
+      "Cammeo",
+      "Osmancik"
+    ],
+    "confusion": [
+      [
+        285,
+        41
+      ],
+      [
+        24,
+        412
+      ]
+    ]
+  },
+  "Basmati / Jasmine / Karacadag": {
+    "source_rows": 45000,
+    "training_rows": 36000,
+    "test_rows": 9000,
+    "accuracy": 0.9862222222222222,
+    "macro_f1": 0.9862233516605251,
+    "classes": [
+      "Basmati",
+      "Jasmine",
+      "Karacadag"
+    ],
+    "confusion": [
+      [
+        2939,
+        61,
+        0
+      ],
+      [
+        62,
+        2938,
+        0
+      ],
+      [
+        0,
+        1,
+        2999
+      ]
+    ]
+  }
+}
